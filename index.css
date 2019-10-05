@@ -1,0 +1,79 @@
+html {
+  border: 5px solid black;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  border: 5px solid wheat;
+  background-color: #000;
+  color: wheat;
+  box-sizing: border-box;
+  height: 97%;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.25;
+}
+
+body {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("Image/Gitarre_BW_small.JPG"); /* 480px x 320px  */
+}
+
+@media (orientation: landscape) {
+  .jumbo-heading-primary {
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 31px;
+  }
+  
+  .jumbo-heading-secondary {
+    font-size: 1.5rem;
+    letter-spacing: 20px;
+  }
+}
+
+@media (orientation: portrait) {
+  @media (max-width: 449px) {
+    .jumbo-heading-primary {
+      font-size: 3.3rem;
+      font-weight: 400;
+      letter-spacing: 31px;
+    }
+
+    .jumbo-heading-secondary {
+      font-size: 1rem;
+      letter-spacing: 18px;
+    }
+  }
+
+  @media (min-width: 450px) {
+    .jumbo-heading-primary {
+      font-size: 5rem;
+      font-weight: 400;
+    }
+    .jumbo-heading-secondary {
+      font-size: 1.5rem;
+      letter-spacing: 31px;
+    }
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    background-image: url("Image/Gitarre_BW_large.JPG");
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-image: url("Image/Gitarre_BW_tablett.JPG");
+  }
+}
+
+@media (min-width: 3000x) {
+  body {
+    background-image: url("Image/Gitarre_BW_original.JPG");
+  }
+}
