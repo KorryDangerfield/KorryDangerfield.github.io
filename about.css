@@ -1,8 +1,8 @@
-body {
+
     .main {
-        position: absolute;
-          top: 40%;
-          left: 51.5%;
+        position: relative;
+          top: 4vmin;
+          left: 89%;
           transform: translate(-50%, -50%);
       }
       .main-heading {
@@ -28,4 +28,8 @@ body {
         letter-spacing: 31px;
         color: rgb(3, 3, 2);
         animation: moveInRight 1s ease-out;  
-}
+      }
+      body{
+        background-color: #000;
+        color: #ccc;
+      }

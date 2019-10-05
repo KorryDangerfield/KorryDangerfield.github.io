@@ -1,3 +1,4 @@
+
 nav {
   /*background-color: #black;*/
   position: static;
@@ -48,6 +49,53 @@ nav a:hover {
   .jumbo {
     top: 40%;
   }
+}
+
+/* bs breakpoints */
+/*extra small*/
+
+@media (max-width: 576px) {
+  .centered-content {
+    width: 100%;
+    margin: auto;    
+  }
+  p {
+    color: rgb(255, 0, 0);
+  }
+}
+/*small*/
+@media (min-width: 577px) and (max-width: 768px) {
+  .centered-content {
+    width: 550px;
+    margin: auto;    
+  }
+  p {
+    color: rgb(60, 255, 0);
+  }
+}
+/*medium*/
+@media (min-width: 769px) and (max-width: 992px) {
+  .centered-content {
+    width: 680px;
+    margin: auto;
+  }
+  p {
+    color: rgb(255, 0, 234);
+  }
+}
+/*large*/
+@media (min-width: 993px) and (max-width: 1200px) {
+  .centered-content {
+    width: 680px;
+    margin: auto;
+    
+  }
+  p {
+    color: blue;
+  }
+}
+/*extra large*/
+@media (min-width: 1201px) {
 }
 
 .jumbo {
